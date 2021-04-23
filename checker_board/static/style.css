@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(53, 3, 100);
+    margin: 0 auto;
+    margin-top: 92px;
+}
+
+td{
+    width: 65px;
+    height: 65px;
+    border: 1px solid rgb(10, 10, 8);
+    
+}
+
+
+.color1{
+    background-color: rgb(21, 248, 52);
+    
+
+
+}
+
+.color2{
+
+    background-color: rgb(255, 4, 4);
+
+}

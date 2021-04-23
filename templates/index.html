@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+    <title>playground</title>
+</head>
+<body>
+    <div class="d-flex">
+        <h1>Welcome!!</h1>
+    </div>
+    <div class="d-flex">
+        
+        {% for x in range(0,times): %}
+        <div class="square1" style="background-color: {{color}}"></div>
+        {% endfor %}
+        
+    </div>
+
+</body>
+</html>
